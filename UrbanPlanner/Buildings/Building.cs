@@ -50,8 +50,12 @@ namespace UrbanPlanner.Buildings
         
         public void GetDetails()
         {
-            Console.WriteLine($"{_address}----------" +
-                $"Designed by {_designer} Constructed on {_dateConstructed} Owned by {_owner} {Volume} cubic meters of space"); 
+            Console.WriteLine($@"
+ {_address}----------
+ Designed by {_designer} 
+ Constructed on {_dateConstructed} 
+ Owned by {_owner} 
+ {Volume} cubic meters of space"); 
                
         }
 
